@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Exercício 1</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <!-- Carrosel -->
+    <div class="container-fluid p-0">
+        <div id="cat" class="carousel slide mb-5" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="./img/cat.jpg" alt="Foto do gatinho fofo">
+                    <div class="carousel-caption">
+                        <h3>Gato Preto</h3>
+                        <p>Coisa mais linda do mundo</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./img/cat2.jpg" alt="Foto do gatinho fofo">
+                    <div class="carousel-caption">
+                        <h3>Filhotes</h3>
+                        <p>Dois filhotes brincando</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./img/cat3.jpg" alt="Foto do gatinho fofo">
+                    <div class="carousel-caption">
+                        <h3>Gato dormindo</h3>
+                        <p>Gato preguiçoso</p>
+                    </div>
+                </div>
+                <!-- Indicadores -->
+                <ol class="carousel-indicators">
+                    <li data-target="#cat" class="active" data-slide="0"></li>
+                    <li data-target="#cat" data-slide="1"></li>
+                    <li data-target="#cat" data-slide="2"></li>
+                </ol>
+
+                <!-- Controladores -->
+                <a href="#cat" class="carousel-control-prev" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+
+                </a>
+
+                <a href="#cat" class="carousel-control-next" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Título Cartões -->
+
+    <div class="title">
+        <h2 class="text-center mb-5">Tipos de Cartões</h2>
+    </div>
+    
+    <!-- Cards -->
+
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-12 col-md-3">
+                <div class="card mb-5">
+                    <img class="card-img-top" src="./img/cat.jpeg" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Gatíneo</h5>
+                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, ipsam amet suscipit voluptatem molestiae,
+                            deleniti ullam non at temporibus recusandae odit omnis eius hic voluptatum quidem corrupti rerum
+                            cupiditate officiis.</p>
+                        <a href="#" class="btn btn-primary">Saiba mais!</a>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="card">
+                        <img class="card-img-top" src="./img/cat2.jpeg" alt="">
+                        <div class="card-body">
+                         <h5 class="card-title">Gatíneo</h5>
+                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, ipsam amet suscipit voluptatem
+                                molestiae, deleniti ullam non at temporibus recusandae odit omnis eius hic voluptatum quidem
+                                corrupti rerum cupiditate officiis.</p>
+                            <a href="#" class="btn btn-primary">Saiba mais!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="card">
+                        <img class="card-img-top" src="./img/cat3.jpeg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Gatíneo</h5>
+                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, ipsam amet suscipit voluptatem
+                                molestiae, deleniti ullam non at temporibus recusandae odit omnis eius hic voluptatum quidem
+                                corrupti rerum cupiditate officiis.</p>
+                            <a href="#" class="btn btn-primary">Saiba mais!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="card">
+                        <img class="card-img-top" src="./img/cat.jpeg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Gatíneo</h5>
+                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, ipsam amet suscipit voluptatem
+                                molestiae, deleniti ullam non at temporibus recusandae odit omnis eius hic voluptatum quidem
+                                corrupti rerum cupiditate officiis.</p>
+                            <a href="#" class="btn btn-primary">Saiba mais!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Título Equipe -->
+
+        <div class="title-team">
+            <h2 class="text-center mb-5">Equipe</h2>
+        </div>
+
+        <!-- Equipe -->
+
+        <div class="container text-center mb-3">
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <img class="rounded-circle img-fluid mb-3" src="./img/perfil1.jpg" alt="">
+                    <h5>Monalisa</h5><small>UX Designer</small>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, ipsam amet suscipit voluptatem
+                            molestiae.</p>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <img class="rounded-circle img-fluid mb-3" src="./img/perfil2.jpg" alt="">
+                    <h5>Caroline Guimarães</h5><small>Front-End Jr</small>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, ipsam amet suscipit voluptatem
+                            molestiae.</p>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <img class="rounded-circle img-fluid mb-3" src="./img/perfil3.jpg" alt="">
+                    <h5>Jéssica Souza</h5><small>Product Owner</small>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, ipsam amet suscipit voluptatem
+                            molestiae.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <img class="rounded-circle img-fluid mb-3" src="./img/perfil1.jpg" alt="">
+                    <h5>Monalisa</h5><small>UX Designer</small>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, ipsam amet suscipit voluptatem
+                            molestiae.</p>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <img class="rounded-circle img-fluid mb-3" src="./img/perfil2.jpg" alt="">
+                    <h5>Caroline Guimarães</h5><small>Front-End Jr</small>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, ipsam amet suscipit voluptatem
+                            molestiae.</p>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <img class="rounded-circle img-fluid mb-3" src="./img/perfil3.jpg" alt="">
+                    <h5>Jéssica Souza</h5><small>Product Owner</small>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, ipsam amet suscipit voluptatem
+                            molestiae.</p>
+                </div>
+            </div>
+        </div>
+
+         <!-- Título Depoimento    -->
+
+         <div class="title-testemonial">
+             <h2 class="text-center mb-5">Depoimento</h2>
+         </div>
+
+         <!-- Depoimento    -->
+
+         <div class="container mb-5">
+             <div class="card">
+                <div class="row">
+                    <div class="col-6">
+                        <img class="img-fluid" src="./img/cat2.jpeg" alt="">
+                    </div>
+                    <div class="col-6">
+                        <h4 class="card-title">Projeto um</h4>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit tempora architecto facere repellat placeat optio esse itaque aliquid ipsa soluta neque dolores, natus sed, error deleniti aspernatur alias cupiditate eaque.</p>
+                        <div class="btn btn-primary">Ver projeto</div>
+                    </div>
+                 </div>
+             </div>
+         </div>
+
+
+</body>
+
+</html>
